@@ -1,0 +1,57 @@
+ul.accepted-payment-methods {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+ul.accepted-payment-methods:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul.accepted-payment-methods li {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+  display: inline;
+  margin-right: .5em;
+}
+ul.accepted-payment-methods li span {
+  display: inline-block;
+  padding: 4px;
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  width: 50px;
+  height: 16px;
+  text-align: left;
+  text-indent: -999em;
+  background-position: 4px 4px;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+}
+ul.accepted-payment-methods li.visa span {
+  background-image: url(../images/visa.svg);
+}
+ul.accepted-payment-methods li.paypal span {
+  width: 61px;
+  background-image: url(../images/paypal.svg);
+}
+ul.accepted-payment-methods li.mastercard span {
+  width: 26px;
+  background-image: url(../images/mastercard.svg);
+}
+ul.accepted-payment-methods li.applepay span {
+  width: 26px;
+  background-image: url(../images/applepay.svg);
+}
+ul.accepted-payment-methods li.googlepay span {
+  width: 77px;
+  background-image: url(../images/googlepay.svg);
+}
+ul.accepted-payment-methods li.bitcoin span {
+  width: 18px;
+  background-image: url(../images/bitcoin.svg);
+}
